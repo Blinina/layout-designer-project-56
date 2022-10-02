@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  background: rgb(149, 57, 12);
+  background: linear-gradient(270deg, rgb(149, 57, 12) 8.48%, rgb(83, 40, 161) 72.24%);
+  border: 0ch;
+}
+footer nav {
+  display: flex;
+  flex-direction: row;
+}
+footer li {
+  list-style-type: none;
+}
+
+.header {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+.header .search {
+  height: 25px;
+  background-color: #3C3B3D;
+  border-radius: 50px;
+}
+.header input {
+  height: 50px;
+  border: 2px solid #CACACA;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+.header button {
+  background-color: #34C176;
+  border-radius: 5px;
+  height: 57px;
+  color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 400;
+  src: url("/src/fonts/Roboto-Regular.ttf");
+}
+body {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 1.5;
+  color: #cacaca;
+  background-color: #08020d;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

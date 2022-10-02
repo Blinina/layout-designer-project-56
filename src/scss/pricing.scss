@@ -1,0 +1,30 @@
+.page-pricing{
+    background-color: #08020D;
+    .cards{
+        display: grid;
+        grid-gap: 47px;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        margin-bottom: 40px;
+    }
+    .card{
+        padding: 0 1.5rem;
+        background-position: center;
+        background-size: cover;
+        border-radius: 1rem;
+        .btn{
+            height: 66px;
+            border: 1px solid #FFFFFF;
+            border-radius: 5px;
+            background: none;
+        }
+        &.free{
+            background-image: url(../images/subscribe_1.png);
+        }
+        &.standart{
+            background-image: url(../images/subscribe_2.png);
+        }
+        &.vip{
+            background-image: url(../images/subscribe_3.png);
+        }
+    }
+}

@@ -1,3 +1,6 @@
+@import "footer";
+@import "header";
+
 * {
     box-sizing: border-box;
   }
@@ -25,4 +28,12 @@ h2{
     line-height: 57px;
     font-weight: 700;
     text-transform: uppercase;
+}
+h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.text-center{
+    text-align: center;
 }

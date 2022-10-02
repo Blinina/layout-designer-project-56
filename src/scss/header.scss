@@ -1,0 +1,25 @@
+.header{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    
+   
+    .search{
+        height: 25px;
+        background-color: #3C3B3D;
+        border-radius: 50px;
+    }
+    input{
+        height: 50px;
+        border: 2px solid #CACACA;
+        border-radius: 3px;
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+    button{
+        background-color: #34C176;
+        border-radius: 5px;
+        height: 57px;
+        color: #FFFFFF;
+    }
+}
