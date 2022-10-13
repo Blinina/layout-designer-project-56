@@ -162,7 +162,7 @@ header {
 
 #page-pricing {
   background-color: #08020D;
-  padding-top: 100px;
+  padding: 100px;
 }
 
 .catalog {
@@ -197,61 +197,6 @@ header {
   font-weight: 400;
   font-size: 12.8px;
   line-height: 150%;
-  margin-top: 64px;
-}
-
-.pricing-value {
-  margin-bottom: 40px;
-}
-
-#page-news {
-  background-color: #08020D;
-  padding-top: 100px;
-}
-#page-news h3 {
-  font-size: 30px;
-  line-height: 45px;
-  font-weight: 400;
-  margin: 0;
-}
-#page-news p {
-  font-size: 16px;
-}
-
-@media (max-width: 900px) {
-  .news-item {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-}
-.news-item {
-  display: flex;
-  justify-content: space-between;
-}
-
-.news-author {
-  margin-bottom: 48px;
-}
-
-.news-item-left {
-  float: right;
-}
-
-.news-item-right {
-  float: left;
-}
-
-#page-app {
-  padding-top: 100px;
-  margin-bottom: 100px;
-}
-#page-app h2 {
-  text-align: center;
-}
-
-.app-items {
-  display: flex;
 }
 
 * {
@@ -301,4 +246,4 @@ h3 {
   border-radius: 5px;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.c.map */

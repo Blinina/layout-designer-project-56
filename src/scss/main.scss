@@ -1,6 +1,8 @@
 @import "footer";
 @import "header";
-
+@import "pricing";
+@import "news";
+@import "app";
 * {
     box-sizing: border-box;
   }
@@ -36,4 +38,9 @@ h3{
 }
 .text-center{
     text-align: center;
+}
+.btn {
+    padding: 20px 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
 }
