@@ -3,6 +3,8 @@
 @import "pricing";
 @import "news";
 @import "app";
+@import "artistStyle";
+
 * {
     box-sizing: border-box;
   }
@@ -11,30 +13,45 @@ font-family: Roboto;
 font-weight: 400;
 src: url("/src/fonts/Roboto-Regular.ttf");
 }
+// @media (max-width: 900px) {
+//     body {
+//     width: 100%!important;
+//     }
+//     header{
+//         width: 100%;
+//     }
+// }
 body {
     font-family: "Roboto";
     font-size: 18px;
     line-height: 1.5;
 color: #cacaca;
 background-color: #08020d;
+overflow-x: hidden;
 }
 h1{
     font-size: 60px;
     line-height: 90px;
     font-weight: 700;
     text-transform: uppercase;
-
+    margin: 0;
 }
 h2{
     font-size: 38px;
     line-height: 57px;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 0;
 }
 h3{
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
+    margin: 0;
+}
+p{
+    margin: 0;
+padding: 0;
 }
 .text-center{
     text-align: center;
@@ -43,4 +60,38 @@ h3{
     padding: 20px 30px;
     border: 1px solid #FFFFFF;
     border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    color: #cacaca;
+}
+section{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pt-64 {
+padding-top: 64px!important;
+}
+.pb-72 {
+padding-bottom: 72px!important;
+}
+.sz-16{
+font-size: 16px;
+}
+.sz-12{
+    font-size: 16px;
+    line-height: 19.2px;
+}
+.mt-16{
+margin-top: 16px!important;
+} 
+.mb-48{
+margin-bottom: 48px!important;
+}
+.bg-violet{
+ background-color:  #5328A1;
+}
+.bg-orange{
+    background-color: #95390C;
 }

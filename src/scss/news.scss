@@ -17,8 +17,8 @@
     .news-item{
         display: flex;
         flex-wrap: wrap;
-        // justify-content: space-between;
-       flex-direction: column;
+        justify-content: space-between;
+        flex-direction: column;
     }
   }
 .news-item{
@@ -30,17 +30,13 @@
 .news-author{
     margin-bottom: 48px;
 }
-.news-item-left{
-    float: right;
-    // margin-right: 15px;
+.news-text-right{
+    margin-left: 50px;
 }
-.news-item-right{
-    float: left;
+.news-text-left{
+ margin-right: 50px;
 }
-// .news-item {
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-
-// }
+.news-top{
+    margin-top: 64px;
+}
 
