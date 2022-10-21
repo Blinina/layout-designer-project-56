@@ -1,13 +1,42 @@
+@media (max-width: 900px) {
+    .app-items{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #page-app { 
+        img{
+        margin-left: 0px!important;
+        margin-bottom: 16px;
+    }
+}
+
+}
+
 #page-app{
     padding-top: 100px;
     margin-bottom: 100px;
     h2{
         text-align: center;
     }
+    img{
+        margin-top: 48px;
+        margin-left: 144px;
+
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 .app-items{
     display: flex;
-    // flex-wrap: wrap;
-    // justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.btn-app{
+    margin-top: 16px!important;
+}
+.app-text{
+ max-width: 600px;
+}

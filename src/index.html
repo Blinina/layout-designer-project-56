@@ -13,13 +13,13 @@
 <body>
     <header id="page-description" class="header-main">
         <div class="layout">
-            <div class="top">
+            <div class="top top-container">
                 <div class="header-left">
                     <div class="logo">
                         <img src="images/logo.svg" alt="Logo Music box">
-                        <p>Music box</p>
+                        <p class="logo-text">Music box</p>
                     </div>
-                    <ul class="nav">
+                    <ul class="top-nav">
                         <li class="menu-item"><a href="#">ГЛАВНАЯ</a></li>
                         <li class="menu-item"><a href="#">КАТАЛОГ</a></li>
                         <li class="menu-item"><a href="#">ИСПОЛНИТЕЛИ</a></li>
@@ -31,14 +31,15 @@
                 </form>
             </div>
             <div class="banner-main">
+                <div>
                 <h1>Онлайн музыка где угодно</h1>
                 <h2>без ограничений</h2>
                 <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+            </div>
                 <form class="form">
-                    <div>
-                        <input type="text" placeholder="Имя">
-                        <input type="email" placeholder="Email">
-                    </div>
+                    <input type="text" placeholder="Имя">
+                    <input type="email" placeholder="Email">
+   
                     <button type="submit" class="btn">Получить доступ</button>
                 </form>
             </div>
@@ -137,21 +138,23 @@
         <div>
             <h2>Мобильное приложение</h2>
             <div class="app-items">
-                <div>
-                    <p>Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на
-                        базе операционных систем Androind и iOS
-                        С тарифом «Премиум» приложение позволяет скачивать все композиции из нашей коллекции. Вы можете
+                <div class="app-text">
+                   <p>Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на
+                        базе операционных систем Androind и iOS</p>
+                        <br>
+                    <p>С тарифом «Премиум» приложение позволяет скачивать все композиции из нашей коллекции. Вы можете
                         слушать музыку даже без интернета.</p>
-                    <a class="btn btn-app" href="#">Скачать</a>
+                    
+                    <button class="btn bg-orange btn-app" href="#">Скачать</button>
                 </div>
-                <img src="./images/iphone.png" alt="iphone" width="333" height="278">
+                <img src="./images/iphone.png" alt="iphone">
             </div>
         </div>
     </section>
     <!-- футер -->
     <footer class="bg-gradient">
         <div class="footer-top pt-64 pb-72">
-            <div class ="footer-item">
+            <div class="footer-item">
                 <h3>О НАС</h3>
                 <ul>
                     <li><a href="#">История компании</a></li>
@@ -180,10 +183,10 @@
             <div>
                 <h3>ПОДПИСЫВАЙТЕСЬ</h3>
                 <div class="img-collection">
-                <a href="#"><img src="./images/Google+.png"></a>
-                <a href="#"><img src="./images/Twitter.png"></a>
-                <a href="#"><img src="./images/Facebook.png"></a>
-                <a href="#"><img src="./images/Instagram.png"></a>
+                    <a href="#"><img src="./images/Google+.png"></a>
+                    <a href="#"><img src="./images/Twitter.png"></a>
+                    <a href="#"><img src="./images/Facebook.png"></a>
+                    <a href="#"><img src="./images/Instagram.png"></a>
                 </div>
             </div>
         </div>

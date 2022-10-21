@@ -13,14 +13,27 @@ font-family: Roboto;
 font-weight: 400;
 src: url("/src/fonts/Roboto-Regular.ttf");
 }
-// @media (max-width: 900px) {
-//     body {
-//     width: 100%!important;
-//     }
-//     header{
-//         width: 100%;
-//     }
-// }
+@media (max-width: 900px) {
+    body {
+    width: 100%!important;
+    }
+    header, section, footer{
+        width: 100%;
+    }
+    h1{
+        font-size: 30px!important;
+        line-height: 45px!important;
+        font-weight: bold!important;
+        text-transform: uppercase;
+    }
+    h2{
+        font-size: 18px!important;
+        line-height: 27px!important;
+        font-weight: bold!important;
+        text-transform: uppercase;
+    }
+
+}
 body {
     font-family: "Roboto";
     font-size: 18px;
